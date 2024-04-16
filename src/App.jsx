@@ -8,6 +8,7 @@ import Collaboration from "./Componenets/Collaboration";
 import Services from "./Componenets/Services";
 import Pricing from "./Componenets/Pricing";
 import Roadmap from "./Componenets/Roadmap";
+import Footer from "./Componenets/Footer";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Services />
         <Pricing />
         <Roadmap />
+        <Footer />
         {/* <Button
           className="mt-20"
           // if we remove href we will get normal button
